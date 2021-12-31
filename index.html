@@ -9,9 +9,56 @@
   <!-- Stylesheets -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/styles.css">
+
+  <!-- ICON -->
+  <script src="https://kit.fontawesome.com/7a513bdb46.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
+  <div class="setting-wrapper">
+    <div class="setting-header">
+      <h1 class="setting-title">Account settings</h1>
+      <i class="fas fa-times"></i>
+    </div>
 
+    <div class="setting-body">
+      <form action="https://echo.htmlacademy.ru">
+        <div class="setting-main-part">
+          <img class="person-img" src="img/avatar.jpg" alt="John avatar" width="60" height="60"></>
+
+          <label for="username">Username</label>
+            <input class="username" type="text " id="username" placeholder="Enter your username" required autocomplete="off">
+
+
+          <div class="fullname">
+            <label class="first-n" for="firstname">First Name</label>  <label for="lastname">Last Name</label>
+
+              <input class="first-name" type="text "  name="firstname" id="firstname" placeholder="Enter your Firstname" required autocomplete="off">
+
+
+
+              <input class="last-n" type="text " name="lastname"  id="lastname" placeholder="Enter your Lastname" required autocomplete="off">
+
+
+          </div>
+
+          <label for="email">Email</label>
+            <input class="email" type="email" name="email" id="email" placeholder="Enter your Email" required autocomplete="off">
+
+
+          <label for="bio"> BIO </label>
+            <textarea class="textarea" id="bio" placeholder="Tell us about yourself"></textarea>
+
+
+
+        </div>
+
+        <button class="btn-form">Save</button>
+        <button class="btn-form">Cancel</button>
+        <div class="clr"></div>
+      </form>
+    </div>
+  </div>
 
 
   <script src="js/main.js"></script>
